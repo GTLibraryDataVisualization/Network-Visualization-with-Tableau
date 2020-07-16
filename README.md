@@ -6,4 +6,7 @@ There are two datasets uploaded here, the raw one is the original data, and the 
 
 The final visualization looks like:
 
-![Dashboard 1 (2)](https://user-images.githubusercontent.com/37058499/87678171-9f281b80-c748-11ea-96f8-d8eaaa8df8a4.png)
+![Screenshot](https://user-images.githubusercontent.com/37058499/87679494-3fcb0b00-c74a-11ea-9abc-46963c740e2c.png)
+
+
+The interactive visualization could be accessed at: https://public.tableau.com/views/DestinationMapDemo2/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
