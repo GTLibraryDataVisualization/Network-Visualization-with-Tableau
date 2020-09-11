@@ -15,6 +15,8 @@ After done, exit the window.
 
 ![image](https://user-images.githubusercontent.com/37058499/92944318-d30a7f00-f421-11ea-8aad-ef88eb82795f.png)
 
+## Create a frame of links
+
 Then at the left bottom, you should see “Sheet 1” turns orange. Click on it to open a new worksheet.
 
 On the new sheet, you would see both tables listed on the left sidebar: Lat_Lon, Trips. 
@@ -48,33 +50,68 @@ And now, go up to the “Automatic” chart selection and change it to lines:
 
 ![image](https://user-images.githubusercontent.com/37058499/92944860-85424680-f422-11ea-92d9-cdb4700daedb.png)
 
+this way you tell Tableau to draw lines between Origin and Destination.
+
+![image](https://user-images.githubusercontent.com/37058499/92945112-d2beb380-f422-11ea-94d6-aea08ae9fb2c.png)
+
+Now drag and drop Location on Details, you should start seeing a spider web look map like below:
+
+![image](https://user-images.githubusercontent.com/37058499/92945149-e23dfc80-f422-11ea-82be-ca8c8b019be2.png)
+
+So far you have created the links / bridges between all Origins and Destinations. Hover your mouth over to the lines to find out more information.
+
+
+## Create a second frame of dots
+
+Find Lat on the left sidebar and drag-drop it in the row. Now you should see a split-screen like below.
+
+![image](https://user-images.githubusercontent.com/37058499/92945251-04377f00-f423-11ea-9b9c-9b14a5c7ae5b.png)
+
+Our goal here is to make the first frame links and the second dots, and then merge them together.
+To do this, click to expand AVG(Lat) (2), and change the chart type from Line to Circle.
+
+![image](https://user-images.githubusercontent.com/37058499/92945315-1a453f80-f423-11ea-9ff7-5186d4112383.png)
+
+After this step, you should see the second frame change to dots. 
+
+Something else you can do here is to change the size of the dots to represent the traffic that go through them. 
+To do this, simply drag-drop Times to Size under AVG(Lat)(2).
+You can also drag-drop Location / Times on Label so it will show on screen the location names.
+
+![image](https://user-images.githubusercontent.com/37058499/92945375-2fba6980-f423-11ea-9f43-3155eb913db0.png)
+
+After this, it will be mostly cosmetic work. For example, if you’d like to make the links crispier and a different color, you can do back to expand AVG(Lat), change the color and remove the halo (if you wish).
+
+![image](https://user-images.githubusercontent.com/37058499/92945443-452f9380-f423-11ea-8748-6ce31767bc6e.png)
+
+You can also make the link a little skinnier so it doesn’t take too much space under the Size button.
+
+## Merge the frames
+
+When we are done editing the dots and lines, we can merge them into one frame.
+To do this, go up on the rows, click on the triangle at the end of the second AVG(Lat) button, you will see a drop-down menu like the screen below. 
+There click on Dual Axis.
+
+![image](https://user-images.githubusercontent.com/37058499/92945507-5bd5ea80-f423-11ea-89db-8c2fb7027602.png)
+
+Now you should see one frame of dots connected by lines:
+
+![image](https://user-images.githubusercontent.com/37058499/92945554-6e502400-f423-11ea-88e5-718ffde8f4f3.png)
+
+One final touch we can add is a background map to give us more context. 
+To do this, go up to Map. Click on it and select Map Layers from the drop-down menu:
+
+![image](https://user-images.githubusercontent.com/37058499/92945601-82942100-f423-11ea-96c3-3fa4787e7b07.png)
+
+After you click on it, a sidebar will appear on your left. 
+You can try different styles from the Style control, and adjust the Washout to make sure the background doesn’t take away the main focus of your visualization.
+
+![image](https://user-images.githubusercontent.com/37058499/92945665-95a6f100-f423-11ea-8a67-852705179570.png)
+
+After this final step, Tableau Public users can publish it from File -> Save to Tableau Public As. 
+There you will need to log in / create your account to be able to save content.
+
+![image](https://user-images.githubusercontent.com/37058499/92945700-a5263a00-f423-11ea-91b6-073a778d8124.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In this workshop we will be using this small mock dataset for logistics to create a network (destination) map. 
-
-There are two datasets uploaded here, the raw one is the original data, and the modified one is what is needed to create the map. The modification could be done beforehand or in Tableau.
-
-The final visualization looks like:
-
-![Screenshot](https://user-images.githubusercontent.com/37058499/87679494-3fcb0b00-c74a-11ea-9abc-46963c740e2c.png)
-
-
-The interactive visualization could be accessed at: https://public.tableau.com/views/DestinationMapDemo2/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
