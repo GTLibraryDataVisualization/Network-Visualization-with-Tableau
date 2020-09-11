@@ -6,6 +6,15 @@ You use Tableau Public for this workshop. So all screenshots are taken from Publ
 Launch your Tableau Public, selectMS Excel because that is the format we saved our files, and navigate to your file.
 ![image](https://user-images.githubusercontent.com/37058499/92944111-93dc2e00-f421-11ea-8e5f-fb39b9155ea0.png)
 
+Load your file, and you should see the screen below. 
+We have two files we need to use for this exercise. One is the GT OIT dispatch mock data, the other is the Lat/Lon of all the locations the dispatches ties to. 
+First drag-drop the Trips files to the right, and then Lat_Lon file. 
+Once both files are dragged in, the screen will pop a Edit Relationship window asking you how to connect them. Location variables on both files are our connector in this case.
+After done, exit the window.
+![image](https://user-images.githubusercontent.com/37058499/92944318-d30a7f00-f421-11ea-8aad-ef88eb82795f.png)
+
+
+
 
 
 
