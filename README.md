@@ -1,4 +1,4 @@
-# Tableau-Network-Chart-Destination-Map
+# Network-Visualization-with-Tableau
 
 You use Tableau Public for this workshop. So all screenshots are taken from Public. It is highly recommended you first take a look at the files and understand what information is in there.
 
