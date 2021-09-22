@@ -1,5 +1,7 @@
 # Network-Visualization-with-Tableau
 
+After this workshop, we would appreciate your input on how your workshop experience is and how we can do better here: https://docs.google.com/forms/d/e/1FAIpQLScpN3Leq765IihESOpakWJgj4MqdtR_jf9GXtlyqrMGA7nYqg/viewform?usp=sf_link
+
 You use Tableau Public for this workshop. So all screenshots are taken from Public. It is highly recommended you first take a look at the files and understand what information is in there.
 
 ## File Import
